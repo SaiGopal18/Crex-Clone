@@ -1,0 +1,505 @@
+.header1{
+    display: flex;  
+    flex-direction: row;
+    height: 58px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-bottom-style:solid;
+    border-bottom-color: rgb(108, 107, 107);
+    border-bottom-width: 1px;
+
+}
+.division1{
+    width: 345px;
+}
+.division2{
+    display: grid;
+    grid-template-columns:40px 10px;
+    width:600px;
+    align-items: center;
+}
+.division3{
+    width: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "ABC Diatype Light";
+    font-weight:500;
+    color: white;
+    font-size: 16px;
+}
+.division4{
+    flex: 1;
+}
+.Crex-logo{
+    height: 30px;
+    margin-left: 20px;
+}
+.crex-text{
+    margin-left: 18px;
+    font-family:"ABC Diatype";
+    color: white;
+}
+.mode-icon{
+    display: flex;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 4px;
+    background-color:#2f4b64;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+
+}
+.button1{
+    border-style: none;
+    color: white;
+    background-color:#2f4b64;
+}
+.Vs-Region{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color:#173047;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-family:"ABC Diatype Light" ;
+    height: 280px;
+    color: rgb(186, 181, 181);
+    font-weight: 600;
+    font-size: 24px;
+    border-bottom-style:solid;
+    border-bottom-color: rgb(108, 107, 107);
+    border-bottom-width: 1px;
+    
+}
+.RCB{
+    height: 70px;
+    margin-left: 390px;
+}
+.dayandtime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+}
+.Day{
+
+    font-size: 16px;
+    
+}
+.Time{
+    color: white;
+    font-size: 34px;
+    font-family:"ABC Diatype" ;
+    font-weight: bold;
+}
+.TeamA{
+    margin-right: 200px;
+}
+.TeamB{
+    margin-left: 180px;
+
+}
+.RR{
+    height: 60px;
+}
+.title{
+    font-size: 16px;
+    margin-top: -230px;
+    margin-left: 380px;
+    position: absolute;
+}
+
+.below-vs-region{
+    display: flex;
+    background-color:#173047;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-family:"ABC Diatype Light" ;
+    height: 60px;    
+}
+.left-main-region{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    font-family:"ABC Diatype";
+    color: lightgray;
+    font-size: 19px;
+    cursor: pointer;
+}
+.match-info{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    transition:all 0.15s;
+}
+.match-info:active{
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(233, 121, 121);
+ 
+}
+.live{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    transition:all 0.15s;
+}
+.live:active{
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(233, 121, 121);
+ 
+}
+.Scorecard{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    transition:all 0.15s;
+}
+.Scorecard:active{
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(233, 121, 121);
+ 
+}
+
+
+.left-below-vs-region{
+    width: 250px;
+}
+.ipl-logo-region{
+    margin-left: 180px;
+    width: 950px;
+    margin-top: 75px;
+    height: 90px;
+    border-bottom-style:solid;
+    border-bottom-color: rgb(226, 223, 223);
+    border-bottom-width: 1px;
+}
+.ipl-logo{
+    height: 70px;
+}
+.Eliminator-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 78px;
+    margin-top: -65px;
+    font-family:"ABC Diatype Light" ;
+    
+    height: 60px;
+    justify-content: space-between;
+    align-items:start;
+    
+}
+.Eliminator{
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+}
+.ipl-year{
+    font-size: 21px;
+    font-weight: bold;
+}
+.calender-location-division{
+    display:flex;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top: 30px;
+    height: 110px;
+    width: 900px;
+    font-family:"ABC Diatype Medium" ;
+}
+.calender-division{
+    display: flex;
+    align-items: center;
+}
+.location-division{
+    display: flex;
+    
+}
+.calender-text{
+    margin-left: 14px;
+    font-size: 18px;
+    color:rgb(69, 67, 67);
+    font-family:"ABC Diatype Light";
+    font-weight: bold;
+}
+.calender-icon{
+    height: 28px;
+}
+.location-division{
+    margin-top: 24px;
+
+}
+.location-text{
+    margin-left: 14px;
+    font-size: 18px;
+    color:rgb(108, 108, 243);
+    font-family:"ABC Diatype Light";
+    font-weight: 550;
+    
+
+}
+.location-icon{
+    height: 28px;
+}
+.the-main-region{
+ display: flex;
+    
+}
+.squads-text{
+    font-family:"ABC Diatype Light";
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 10px;
+    color:rgb(36, 35, 35)
+}
+.squad-region{
+
+    border-left-style: solid;
+    border-left-color: lightgray;
+    border-left-width: 1px;
+    height: 500px;
+
+}
+.region2{
+   
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-top: 60px;
+
+}
+.ipl-buttons{
+    display: flex;
+    margin-top: -420px;
+}
+.region1{
+    margin-top: 50px;
+}
+.RR-button{
+    font-size: 18px;
+    font-family:ABC Diatype Medium;
+    color: rgb(30, 30, 30);
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 1px;
+    border-radius: 4px;
+    margin-left: 50px;
+    cursor: pointer;
+    
+}
+.RR-button:active{
+    color:#1860a6;
+    background-color:#185fa61f;
+}
+
+.RCB-button{
+    font-size: 17px;
+    font-family:ABC Diatype Medium;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#1860a6;
+    background-color:#185fa61f;
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 1px;
+    border-radius: 4px;
+    margin-left: 50px;
+    cursor: pointer;
+
+    
+
+}
+.faf {
+    height: 40px;
+    width: 44px;    
+    margin-top: 50px;
+    margin-left: 56px;
+    
+    
+}
+.faf-jersey{
+    height: 17px;
+    margin-left: -44px;
+    margin-top: 80px;
+
+
+}
+.players{
+    display: flex;
+}
+.faf-name{
+    margin-left: 44px;
+    margin-top: 50px;
+    font-family: "ABC Diatype Medium";
+    color:darkgoldenrod;
+    font-size: 18px;
+}
+.faf-role{
+    margin-top: 79px;
+    margin-left: -104px;
+    font-family: "ABC Diatype Medium";
+    color: gray;
+    font-size: 14px;
+}
+.patidar-name{
+    margin-left: 3px;
+    margin-top: 50px;
+    font-family: "ABC Diatype Medium";
+    color:black;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.patidar-role{
+    margin-top: 75px;
+    margin-left: -70px;
+    font-family: "ABC Diatype Medium";
+    color: gray;
+    font-size: 14px;
+}
+.patidar{
+    height: 40px;
+    width: 44px;    
+    margin-top: 50px;
+    margin-left: 130px;
+    
+    
+}
+.patidar-jersey{
+    height: 17px;
+    margin-left: -44px;
+    margin-top: 80px;
+}
+.kohli-name{
+    margin-top: 150px;
+    font-family: "ABC Diatype Medium";
+    color:black;
+    font-size: 17px;
+    margin-left: 40px;
+}
+.kohli-role{
+    margin-top: 175px;
+    margin-left: -53px;
+    font-family: "ABC Diatype Medium";
+    color: gray;
+    font-size: 14px;
+}
+.kohli{
+    height: 40px;
+    width: 44px;    
+    margin-top: 155px;
+    margin-left: -356px;
+    
+    
+}
+.kohli-jersey{
+    height: 17px;
+    margin-left: -45px;
+    margin-top: 185px;
+}
+.anuj-name{
+    margin-top: 150px;
+    font-family: "ABC Diatype Medium";
+    color:goldenrod;
+    font-size: 17px;
+    margin-left: 28px;
+}
+.anuj-role{
+    margin-top: 175px;
+    margin-left: -100px;
+    font-family: "ABC Diatype Medium";
+    color: gray;
+    font-size: 14px;
+}
+.anuj{
+    height: 40px;
+    width: 44px;    
+    margin-top: 155px;
+    margin-left: 130px;
+    
+    
+}
+.anuj-jersey{
+    height: 17px;
+    margin-left: -44px;
+    margin-top: 185px;
+}
+.suyash-name{
+    margin-top: 240px;
+    font-family: "ABC Diatype Medium";
+    color:black;
+    font-size: 17px;
+    margin-left: 39px;
+
+}
+.suyash-role{
+    margin-top: 266px;
+    margin-left: -90px;
+    font-family: "ABC Diatype Medium";
+    color: gray;
+    font-size: 14px;
+}
+.suyash{
+    height: 40px;
+    width: 44px;    
+    margin-top: 250px;
+    margin-left: -360px;
+    
+    
+}
+.suyash-jersey{
+    height: 17px;
+    margin-left: -44px;
+    margin-top: 280px;
+}
+.mayank-name{
+    margin-left:0 px;
+    margin-top: 250px;
+    font-family: "ABC Diatype Medium";
+    color:black;
+    font-size: 17px;
+    margin-left: 30px;
+}
+.mayank-role{
+    margin-top: 275px;
+    margin-left: -61px;
+    font-family: "ABC Diatype Medium";
+    color: gray;
+    font-size: 14px;
+}
+.mayank{
+    height: 40px;
+    width: 44px;    
+    margin-top: 250px;
+    margin-left: 100px;
+    
+    
+}
+.mayank-jersey{
+    height: 17px;
+    margin-left: -45px;
+    margin-top: 278px;
+}
+
+.form{
+    font-family:"ABC Diatype Light";
+    font-weight: bold;
+    margin-left: -1000px ;
+    font-size: 24px;
+
+
+
+}
